@@ -116,7 +116,6 @@ export default function Cart() {
                         className={`min-w-[1.5rem] text-center text-sm ${
                           darkMode ? 'text-light' : 'text-gray-800'
                         }`}
-                        aria-label={`Quantity: ${quantity}`}
                       >
                         {quantity}
                       </span>
